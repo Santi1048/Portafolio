@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SECTION HOME -->
+    <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre Mí</a>
+            <!-- <a href="#services">Servicios</a> -->
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contacto</a> 
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola, Soy</h3>
+            <h1>Santiago Moreno Rueda</h1>
+            <h3><span class="multiple-text">Frontend Developer</span></h3>
+            <p>Con certificación en <span>HTML, CSS, Java Script y React</span></p>
+         <div class="social-media">
+                <a href="https://github.com/dashboard"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/santiago-moreno-rueda-023bb6302/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="./Pdf/CV Santiago Moreno.pdf" class="btn" id="btnDowland">Descargar CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/por2.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/por2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mí</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Como programador web FrontEnd,  traigo un enfoque centrado en la experiencia del usuario y la estética del diseño. Con lenguajes como HTML, CSS y Java Script que me permitirán transformar ideas creativas en interfaces interactivas y atractivas. Con la finalidad de ampliar conocimientos y habilidades que me permitan crecer y ser competente para los nuevos esquemas de trabajo dentro de las compañías.</p>     
+        </div>
+    </section>
+
+    <!-- services section -->
+    <!-- <section class="services" id="services">
+        <h2 class="heading">Nuestros <span>Servicios</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum hic excepturi natus possimus nisi. Nisi recusandae accusamus amet aliquid quia.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Diseño</h3>
+            <p>Con conocimientos en Photoshop e Illustrator estoy ampliando mis habilidades para ofrecer servicios en diseño gráfico como parte de mi currículum de FrontEnd.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Marketing Digital</h3>
+            <p></p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">últimos <span>Proyectos</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img/clima.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Aplicación del Clima con ReactJS</p>
+                    <div class="icon-container">
+                        <a href="https://ent2-gn2.vercel.app/"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Santi1048/ent2-gn2"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/rickandmorty.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Aplicación de Rick and Morty con ReactJS</p>
+                    <div class="icon-container">
+                        <a href="https://ent3-gen31-55xf.vercel.app/"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Santi1048/ent3-gen31"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, hic!</p>
+                    <div class="icon-container">
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                        <a href=""><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+      <section class="contact" id="contact">
+        <h2 class="heading"><span>Contáctame</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo Electronico">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Teléfono">
+                <input type="text" placeholder="Asunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
