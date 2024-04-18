@@ -197,6 +197,13 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.about-content i {
+    display: inline-block;
+    font-size: 4rem;
+    margin-right: 10px;
+    color: var(--main-color);
+}
+
 .services h2 {
     margin-bottom: 5rem;
 }
